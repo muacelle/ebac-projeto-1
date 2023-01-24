@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+body img {
+    max-height: 500px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #536173;
+    color: #D9BB96;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin-left: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin: 8px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #F2DBAE;
+    font-size: 20px;
+}
+
+/* Main */
+
+main {
+    background-color: #7B92A6;
+    color: #F2DBAE;
+    padding-top: 40px;
+}
+
+.container {
+    display: flex;
+    padding: 40px 100px;
+}
+
+.container:nth-last-of-type(2) {
+    padding-left: 350px;
+}
+
+.info {
+    width: 60%;
+    max-width: 600px;
+    margin-left: 40px;
+}
+
+.info h2 {
+    margin-bottom: 22px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.info p {
+    line-height: 29px;
+    font-size: 20px;
+}
+
+form {
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+form label {
+    font-size: 14px;
+}
+
+form input {
+    margin: 8px 0;
+    height: 28px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #260101;
+    color: #F2DBAE;
+    font-weight: bold;
+    border: none;
+}
+
+/* Footer */
+
+footer {
+    background-color: #536173;
+    color: #D9BB96;
+    padding: 20px;
+}
